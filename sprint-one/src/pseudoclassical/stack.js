@@ -4,8 +4,6 @@ var Stack = function() {
 
   this.storage = {};
   this.counter = 0;
-  this.first = 0;
-  this.last = 0;
 };
 
 
