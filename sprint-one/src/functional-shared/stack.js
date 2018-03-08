@@ -24,6 +24,10 @@ var stackMethods = {
 	  var removed = this.storage[--this.counter];
 	  return removed;
 	}
+
+// {a, b, c}
+// counter 3
+
   },	
   size: function(){
 	return this.counter;
