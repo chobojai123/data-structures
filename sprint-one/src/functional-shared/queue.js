@@ -28,8 +28,8 @@ var queueMethods = {
   	  var removed = this.storage[this.first];
    	  delete this.storage[this.first++];
   	  this.counter--;
-	  return removed;
-	}
+	    return removed;
+	 }
   },
   size: function(){
   	return this.counter;
